@@ -207,8 +207,6 @@ html {
   margin: 20px 0;
 }
 
-
-
 .classificacao p {
   color: #FFF;
   font-family: Montserrat;
@@ -457,9 +455,9 @@ html {
 
 .overview {
   width: 1004px;
-  height: 237px;
+  height: auto;
   flex-shrink: 0;
-  margin: 50px 0 0 0;
+  margin: 50px;
 }
 
 .overview h3,
@@ -473,7 +471,7 @@ html {
   line-height: normal;
 }
 
-.overview-1 p ,
+.overview-1 p,
 .overview-2 p {
   color: #FFF;
   font-family: Montserrat;
@@ -482,15 +480,15 @@ html {
   font-weight: 400;
   line-height: normal;
 
- }
+}
 
 .overview-1 li {
-    color: #FFF;
-    font-family: Montserrat;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .overview-1 {
@@ -511,15 +509,15 @@ html {
   line-height: normal;
   text-decoration: none;
   margin-bottom: 0px;
-  padding:20%;
- 
- 
- }
+  /* padding: 20%; */
+
+
+}
 
 .cards {
   display: flex;
   width: 1004px;
-  height: 230px;
+  height: auto;
   justify-content: space-between;
   align-items: center;
   flex-shrink: 0;
@@ -593,7 +591,7 @@ html {
   justify-content: flex-start;
   flex-direction: column;
   width: 80%;
-  
+
 }
 
 .sociais {
@@ -648,6 +646,6 @@ html {
   justify-content: start;
 }
 
-.btn-topo{
+.btn-topo {
   cursor: pointer;
 }

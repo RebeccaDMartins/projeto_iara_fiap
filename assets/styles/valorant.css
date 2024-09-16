@@ -206,8 +206,6 @@ html {
   margin: 20px 0;
 }
 
-
-
 .classificacao p {
   color: #FFF;
   font-family: Montserrat;
@@ -455,9 +453,9 @@ html {
 
 .overview {
   width: 1004px;
-  height: 237px;
+  height: auto;
   flex-shrink: 0;
-  margin: 50px 0 0 0;
+  margin: 50px;
 }
 
 .overview h3,
@@ -504,7 +502,7 @@ html {
 .cards {
   display: flex;
   width: 1004px;
-  height: 283px;
+  height: auto;
   justify-content: space-between;
   align-items: center;
   flex-shrink: 0;
