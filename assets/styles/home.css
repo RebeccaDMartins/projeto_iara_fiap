@@ -194,13 +194,14 @@ html {
 }
 .conteudo {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
     
 }
 
 .lista-jogos {
+    display: flex;
     padding-bottom: 5%;
     width: 70%;
     flex-direction:line;
@@ -209,18 +210,20 @@ html {
     align-items: center;
 }
 .titulo-sessao{
+    display: flex;
     font-family: "Montserrat";
     font-size: 20px;
     font-weight: 600;
     color: #fff;
-    padding: 2%
+    padding: 2%;
+    justify-content: left;
 }
 .lista-jogos,
 .jogo,
 .infos-jogo {
     display: flex;
     justify-content: space-evenly;
-    align-items: left;
+    align-items: center;
 }
 
 .jogo,
