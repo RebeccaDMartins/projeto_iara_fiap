@@ -51,7 +51,7 @@ html {
 
 .link {
   color: #C6C6C6;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -61,7 +61,7 @@ html {
 
 .ativo {
   color: #C6C6C6;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 20px;
   font-style: normal;
   font-weight: 800;
@@ -99,7 +99,7 @@ html {
 
 .btn-cinza a,
 .btn-azul a {
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -211,7 +211,7 @@ html {
 
 .classificacao p {
   color: #FFF;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 15px;
   font-style: normal;
   font-weight: 700;
@@ -220,7 +220,7 @@ html {
 
 .classificacao span {
   color: #FFF;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -248,7 +248,7 @@ html {
   border-radius: 5px;
   background: #353539;
   color: #FFF;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 12px;
   font-style: normal;
   font-weight: 600;
@@ -257,7 +257,7 @@ html {
 
 #preco {
   color: #6AC6FF;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 20px;
   font-style: normal;
   font-weight: 800;
@@ -274,7 +274,7 @@ html {
   border-radius: 10px;
   gap: 10px;
   flex-shrink: 0;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -294,7 +294,7 @@ html {
 
 .generos-container p {
   color: #FFF;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -311,7 +311,7 @@ html {
   border: none;
   margin: 7px;
   color: #FFF;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -335,7 +335,7 @@ html {
 
 .infos-jogo h1 {
   color: #FFF;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 32px;
   font-style: normal;
   font-weight: 800;
@@ -360,7 +360,7 @@ html {
 
 .estrelas span {
   color: #FFF;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -381,7 +381,7 @@ html {
 
 .pintinho span {
   color: #FFF;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -402,7 +402,7 @@ html {
 
 .recomendacao span {
   color: #FFF;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -416,7 +416,7 @@ html {
   width: 118px;
   height: 24px;
   color: #C6C6C6;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -436,7 +436,7 @@ html {
 
 .resumo-jogo {
   color: #FFF;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -466,7 +466,7 @@ html {
 .overview-1 h4,
 .overview-2 h4 {
   color: #FFF;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -476,7 +476,7 @@ html {
 .overview-1 p,
 .overview-2 p {
   color: #FFF;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -486,7 +486,7 @@ html {
 
 .overview-1 li {
   color: #FFF;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -504,7 +504,7 @@ html {
   width: 121px;
   align-self: first baseline;
   color: #6AC6FF;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -547,7 +547,7 @@ html {
 .card p {
   color: #FFF;
   text-align: center;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -559,7 +559,7 @@ html {
 
 .card p span {
   color: #FFF;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -615,7 +615,7 @@ html {
 
 .recursos h5 {
   color: #FFF;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -634,7 +634,7 @@ html {
 
 .links-recursos ul li {
   color: #FFF;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
