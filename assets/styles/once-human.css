@@ -181,6 +181,12 @@ html {
   font-family: "Montserrat";
 }
 
+.span-pesquisa span a {
+  font-family: "Montserrat";
+  color: #C6C6C6;
+  text-decoration: none;
+}
+
 .conteudo {
   display: flex;
   justify-content: flex-start;
@@ -199,14 +205,17 @@ html {
 }
 
 .dados-classificacao {
+  margin-top: 15px;
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-direction: row;
-  width: 45%;
-  margin: 20px 0;
+  width: 215px;
+  padding: 10px 16px;
+  align-items: flex-start;
+  gap: 13px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #6AC6FF;
+  background: rgba(217, 217, 217, 0.00);
 }
-
 
 
 .classificacao p {
@@ -311,7 +320,7 @@ html {
   border: none;
   margin: 7px;
   color: #FFF;
-  font-family:"Montserrat";
+  font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -447,8 +456,8 @@ html {
   margin: 50px 0;
 }
 
-.resumo-jogo p{
-    padding-bottom: 20px;
+.resumo-jogo p {
+  padding-bottom: 20px;
 }
 
 .imagem-do-jogo {
@@ -634,6 +643,6 @@ html {
   justify-content: start;
 }
 
-.btn-topo{
+.btn-topo {
   cursor: pointer;
 }
