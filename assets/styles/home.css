@@ -110,7 +110,17 @@ html {
 }
 
 .btn-azul {
-    background: #6AC6FF;
+    background:var(
+        --iara-games-2,
+        linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        linear-gradient(
+          41.38deg,
+          rgba(25, 134, 19, 1) 0%,
+          rgba(255, 246, 0, 1) 94.9999988079071%,
+          rgba(255, 247, 0, 1) 97.50000238418579%,
+          rgba(0, 111, 255, 1) 100%
+        )
+      );
     color: #202024;
     cursor: pointer;
 }
@@ -246,7 +256,7 @@ html {
     font-weight: 600;
 }
 .preco{
-    color:#6AC6FF;
+    color:#fff;
     font-family: "Montserrat";
     font-weight: 500;
     
