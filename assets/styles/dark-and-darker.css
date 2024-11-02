@@ -108,7 +108,17 @@ html {
 }
 
 .btn-azul {
-  background: #6AC6FF;
+  background: var(
+    --iara-games-2,
+    linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(
+      41.38deg,
+      rgba(25, 134, 19, 1) 0%,
+      rgba(255, 246, 0, 1) 94.9999988079071%,
+      rgba(255, 247, 0, 1) 97.50000238418579%,
+      rgba(0, 111, 255, 1) 100%
+    )
+  );; ;
   color: #202024;
   cursor: pointer;
 }
@@ -214,7 +224,7 @@ html {
   gap: 13px;
   flex-shrink: 0;
   border-radius: 10px;
-  border: 1px solid #6AC6FF;
+  border: 1px solid #FfF316;
   background: rgba(217, 217, 217, 0.00);
 
 }
@@ -268,7 +278,7 @@ html {
 }
 
 #preco {
-  color: #6AC6FF;
+  color: #FFf316;
   font-family: "Montserrat";
   font-size: 20px;
   font-style: normal;
@@ -433,7 +443,7 @@ html {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  border-bottom: 1px solid #6AC6FF;
+  border-bottom: 1px solid #fFF316;
   align-self: flex-start;
   margin: 20px 0;
 }
@@ -515,7 +525,7 @@ html {
   gap: 3px;
   width: 121px;
   align-self: first baseline;
-  color: #6AC6FF;
+  color: #FFf316;
   font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
