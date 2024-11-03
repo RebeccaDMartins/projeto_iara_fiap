@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Iara Games</title>
-    <link rel="stylesheet" href="./assets/styles/reset.css" />
-    <link rel="stylesheet" href="./assets/styles/home.css" />
+    <link rel="stylesheet" href="../../assets/styles/reset.css" />
+    <link rel="stylesheet" href="../../assets/styles/home-logado.css" />
     <script
       src="https://kit.fontawesome.com/3e7efa778e.js"
       crossorigin="anonymous"
@@ -30,8 +30,8 @@
   <body>
     <header class="container-header">
       <div class="logo">
-        <a href="./home.html"
-          ><img src="./assets/icon/novo/logo iara.png" alt="Logo da IARA Games"
+        <a href="../../home.html"
+          ><img src="../../assets/icon/novo/logo iara.png" alt="Logo da IARA Games"
         /></a>
       </div>
       <nav class="container-nav">
@@ -43,12 +43,17 @@
       </nav>
       <div class="botoes">
         <button
-          class="btn btn-secondary"
+          class="btn btn-secondary dropdown-toggle"
           type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
         >
-          Entrar
+          Chris.2211
         </button>
-       
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="../meu-perfil/perfil.html">Meu perfil</a></li>
+          <li><a class="dropdown-item" href="#">Finalzar sessão <i class="bi bi-box-arrow-right"></i></a></li>
+        </ul>
         <button class="btn-azul">
           <a href="#">Histórico de compras</a>
         </button>
@@ -87,9 +92,9 @@
           <h1 class="titulo-sessao">DESCUBRA ALGO NOVO</h1>
           <div class="lista-jogos">
             <div class="jogo">
-              <a href="./pages/descubra-o-jogo/valorant.html"
+              <a href="../descubra-o-jogo/valorant.html"
                 ><img
-                  src="./assets/images/capas-pg-inicial/capa_valorant.webp"
+                  src="../../assets/images/capas-pg-inicial/capa_valorant.webp"
                   alt="Capa do jogo Volarant"
               /></a>
               <div class="infos-jogo">
@@ -102,9 +107,9 @@
             </div>
 
             <div class="jogo">
-              <a href="./pages/descubra-o-jogo/dark-and-darker.html"
+              <a href="../descubra-o-jogo/dark-and-darker.html"
                 ><img
-                  src="./assets/images/capas-pg-inicial/capa_dark.webp"
+                  src="../../assets/images/capas-pg-inicial/capa_dark.webp"
                   alt="Capa do jogo Dark and Darker"
               /></a>
               <div class="infos-jogo">
@@ -117,9 +122,9 @@
             </div>
 
             <div class="jogo">
-              <a href="./pages/descubra-o-jogo/call-of-duty-4.html"
+              <a href="../descubra-o-jogo/call-of-duty-4.html"
                 ><img
-                  src="./assets/images/capas-pg-inicial/capa_call_of_duty.webp"
+                  src="../../assets/images/capas-pg-inicial/capa_call_of_duty.webp"
                   alt="Capa do jogo Call of Duty"
               /></a>
               <div class="infos-jogo">
@@ -132,9 +137,9 @@
             </div>
 
             <div class="jogo">
-              <a href="./pages/descubra-o-jogo/destiny-2.html"
+              <a href="../descubra-o-jogo/destiny-2.html"
                 ><img
-                  src="./assets/images/capas-pg-inicial/capa_destiny.webp"
+                  src="../../assets/images/capas-pg-inicial/capa_destiny.webp"
                   alt="Capa do jogo Destiny 2"
               /></a>
               <div class="infos-jogo">
@@ -150,9 +155,9 @@
         <h1 class="titulo-sessao">PRINCIPAIS LANÇAMENTOS</h1>
         <div class="lista-jogos">
           <div class="jogo">
-            <a href="./pages/principais-lancamentos/league-of-legends.html"
+            <a href="../principais-lancamentos/league-of-legends.html"
               ><img
-                src="./assets/images/capas-pg-inicial/capa_league.webp"
+                src="../../assets/images/capas-pg-inicial/capa_league.webp"
                 alt="Capa do jogo League of Legends"
             /></a>
             <div class="infos-jogo">
@@ -165,9 +170,9 @@
           </div>
 
           <div class="jogo">
-            <a href="./pages/principais-lancamentos/path-of-exile.html"
+            <a href="../principais-lancamentos/path-of-exile.html"
               ><img
-                src="./assets/images/capas-pg-inicial/capa_path.webp"
+                src="../../assets/images/capas-pg-inicial/capa_path.webp"
                 alt="Capa do jogo Path of Exile"
             /></a>
             <div class="infos-jogo">
@@ -180,9 +185,9 @@
           </div>
 
           <div class="jogo">
-            <a href="./pages/principais-lancamentos/illuvium.html"
+            <a href="../principais-lancamentos/illuvium.html"
               ><img
-                src="./assets/images/capas-pg-inicial/capa_illuvium.webp"
+                src="../../assets/images/capas-pg-inicial/capa_illuvium.webp"
                 alt="Capa do jogo Illuvium"
             /></a>
             <div class="infos-jogo">
@@ -195,9 +200,9 @@
           </div>
 
           <div class="jogo">
-            <a href="./pages/principais-lancamentos/once-human.html"
+            <a href="../principais-lancamentos/once-human.html"
               ><img
-                src="./assets/images/capas-pg-inicial/capa_once.webp"
+                src="../../assets/images/capas-pg-inicial/capa_once.webp"
                 alt="Capa do jogo Once Human"
             /></a>
             <div class="infos-jogo">
@@ -213,9 +218,9 @@
 
         <div class="lista-jogos">
           <div class="jogo">
-            <a href="./pages/mais-jogados/starfield.html"
+            <a href="../mais-jogados/starfield.html"
               ><img
-                src="./assets/images/capas-pg-inicial/capa_starfield.webp"
+                src="../../assets/images/capas-pg-inicial/capa_starfield.webp"
                 alt="Capa do jogo Starfield"
             /></a>
             <div class="infos-jogo">
@@ -228,9 +233,9 @@
           </div>
 
           <div class="jogo">
-            <a href="./pages/mais-jogados/world-of-warships.html"
+            <a href="../mais-jogados/world-of-warships.html"
               ><img
-                src="./assets/images/capas-pg-inicial/capa_world_warship.webp"
+                src="../../assets/images/capas-pg-inicial/capa_world_warship.webp"
                 alt="Capa do jogo World of Warships"
             /></a>
             <div class="infos-jogo">
@@ -243,9 +248,9 @@
           </div>
 
           <div class="jogo">
-            <a href="./pages/mais-jogados/the-lord-of-rings.html"
+            <a href="../mais-jogados/the-lord-of-rings.html"
               ><img
-                src="./assets/images/capas-pg-inicial/capa_lord_of_rings.webp"
+                src="../../assets/images/capas-pg-inicial/capa_lord_of_rings.webp"
                 alt="Capa do jogo The Lord of Rings"
             /></a>
             <div class="infos-jogo">
@@ -258,9 +263,9 @@
           </div>
 
           <div class="jogo">
-            <a href="./pages/mais-jogados/the-crew-2.html"
+            <a href="../mais-jogados/the-crew-2.html"
               ><img
-                src="./assets/images/capas-pg-inicial/capa_the_crew.webp"
+                src="../../assets/images/capas-pg-inicial/capa_the_crew.webp"
                 alt="Capa do jogo The Crew 2"
             /></a>
             <div class="infos-jogo">
@@ -279,7 +284,7 @@
         <div class="infos-footer">
           <div class="sociais">
             <img
-              src="assets/icon/novo/Icones Rodapé.png"
+              src="../../assets/icon/novo/Icones Rodapé.png"
               alt="Imagem da logo da rede social Instagram"
             />
           </div>
@@ -307,13 +312,13 @@
           </div>
           <div class="logo-footer">
             <img
-              src="assets/icon/novo/logo iara.png"
+              src="../../assets/icon/novo/logo iara.png"
               alt="Logo da IARA Games"
             />
           </div>
         </div>
         <a href="#topo" class="btn-topo">
-          <img src="assets/icon/novo/Subir.png" alt="imagem de uma seta" />
+          <img src="../../assets/icon/novo/Subir.png" alt="imagem de uma seta" />
         </a>
       </div>
     </footer>

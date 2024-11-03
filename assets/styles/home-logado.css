@@ -355,7 +355,7 @@ html {
             rgba(255, 246, 0, 1) 94.9999988079071%,
             rgba(255, 247, 0, 1) 97.50000238418579%,
             rgba(0, 111, 255, 1) 100%);
-    background-clip: text;
+      background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
