@@ -43,6 +43,7 @@ h2 {
 label, textarea {
     display: block;
     font-family: 'Montserrat';
+    resize: none;
 }
 
 textarea {
