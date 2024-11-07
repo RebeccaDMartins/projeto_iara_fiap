@@ -26,6 +26,13 @@ body {
     font-family: 'Montserrat';
 }
 
+.login a{
+    color: #bbb;
+    font-size: 15px;
+    margin: 5px 0;
+    text-align: left;
+}
+
 .logo img {
     width: 250px;
 }
