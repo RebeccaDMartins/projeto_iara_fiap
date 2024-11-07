@@ -7,7 +7,6 @@
 }
 
 body {
-    
     overflow-x: hidden;
     scroll-behavior: smooth;
     width: 100vw;
@@ -27,7 +26,7 @@ body {
     font-family: 'Montserrat';
 }
 
-.logo img{
+.logo img {
     width: 250px;
 }
 
@@ -36,11 +35,12 @@ h2 {
     color: #f0f0f0;
     font-size: 18px;
     margin-bottom: 20px;
-    
+
 }
 
 
-label, textarea {
+label,
+textarea {
     display: block;
     font-family: 'Montserrat';
     resize: none;
@@ -53,7 +53,8 @@ textarea {
     margin: 15px 0;
     width: 300px;
     height: 50px;
-    border: none; /* Remove a borda padrão */
+    border: none;
+    /* Remove a borda padrão */
     border: 2px solid var(--Iara-Games-2, #198613);
     border-radius: 5px;
 }
@@ -68,7 +69,9 @@ input {
     outline: none;
 }
 
-.description, .password-info, .privacy-policy {
+.description,
+.password-info,
+.privacy-policy {
     color: #bbb;
     font-size: 12px;
     margin: 5px 0;
