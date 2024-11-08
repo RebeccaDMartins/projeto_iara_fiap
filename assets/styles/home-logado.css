@@ -350,37 +350,35 @@ html {
 
 .bi::before,
 [class*=" bi-"]::before {
-    background: linear-gradient( 41.38deg,
+    background: linear-gradient(41.38deg,
             rgba(25, 134, 19, 1) 0%,
             rgba(255, 246, 0, 1) 94.9999988079071%,
             rgba(255, 247, 0, 1) 97.50000238418579%,
             rgba(0, 111, 255, 1) 100%);
-      background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .btn-secondary,
-.dropdown-menu{
-    background-color: #353539 !important;
+.dropdown-menu {
+    background-color: #1F1F25 !important;
 }
-.dropdown-item{
+
+.dropdown-item {
     color: #FFF !important;
 }
-.dropdown-item:hover{
+
+.dropdown-item:hover {
     background-color: transparent !important;
     text-decoration: underline !important;
 }
 
 .txt-modal {
-    color: #1F1F25;
+    color: #fff;
 }
 
 .btn-primary {
-    background: linear-gradient( 41.38deg,
-    rgba(25, 134, 19, 1) 0%,
-    rgba(255, 246, 0, 1) 94.9999988079071%,
-    rgba(255, 247, 0, 1) 97.50000238418579%,
-    rgba(0, 111, 255, 1) 100%);
+    background: #1F1F25 !important;
     border: none !important;
 }
 

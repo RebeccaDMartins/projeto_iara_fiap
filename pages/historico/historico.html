@@ -59,9 +59,9 @@
               >Meu perfil</a
             >
           </li>
-          <li>
+          <li data-bs-toggle="modal" data-bs-target="#staticBackdrop">
             <a class="dropdown-item" href="#"
-              >Finalzar sessão <i class="bi bi-box-arrow-right"></i
+              >Finalizar sessão <i class="bi bi-box-arrow-right"></i
             ></a>
           </li>
         </ul>
@@ -187,5 +187,21 @@
         </a>
       </div>
     </footer>
+
+      <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <h1>Sessão encerrada</h1>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+        <button type="button" class="btn btn-primary"> <a class="txt-modal" href="../../home.html"> Sair e retornar à página principal <i class="bi bi-box-arrow-right"></i></a></button>
+      </div>
+    </div>
+  </div>
+</div>
   </body>
 </html>

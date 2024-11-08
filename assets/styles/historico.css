@@ -334,3 +334,30 @@ html {
 .btn-topo {
   cursor: pointer;
 }
+
+.btn-secondary,
+.dropdown-menu {
+    background-color: #1F1F25 !important;
+}
+
+.dropdown-item {
+    color: #FFF !important;
+}
+
+.dropdown-item:hover {
+    background-color: transparent !important;
+    text-decoration: underline !important;
+}
+
+.txt-modal {
+    color: #fff;
+}
+
+.btn-primary {
+    background: #1F1F25 !important;
+    border: none !important;
+}
+
+.modal.content {
+    background-color: #1F1F25 !important;
+}
