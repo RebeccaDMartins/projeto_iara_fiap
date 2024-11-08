@@ -7,13 +7,13 @@
     font-family: 'Montserrat';
 }
 
-/*Não estou conseguindo ajustar o header*/
-.container-header {
+.voltar {
+    position: absolute;
+    top: 1%;
+    left: 1%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    padding: 20px 20px;
+    justify-content: center;
 }
 
 body {

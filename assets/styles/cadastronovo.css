@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat'
 }
 
 body {
@@ -21,10 +22,16 @@ body {
     background-color: #1F1F25;
     padding: 20px;
     border-radius: 10px;
-    width: 350px;
+    width: 550px;
+    height: 900px;
     text-align: center;
-    font-family: 'Montserrat';
+    justify-content: center;
 }
+
+.container p {
+    font-size: 15px;
+}
+
 
 .logo img {
     width: 250px;
@@ -43,7 +50,6 @@ label,
 textarea {
     display: block;
     font-family: 'Montserrat';
-    resize: none;
 }
 
 textarea {
@@ -62,11 +68,14 @@ textarea {
 input {
     padding: 10px;
     margin-top: 5px;
-    border: 1px solid #666;
+    margin-bottom: 25px;
+    border: 1px solid #FFF316;
     border-radius: 5px;
-    background-color: #222;
+    background-color: #1F1F25;
     color: #fff;
     outline: none;
+    width: 500px;
+    height: 60px;
 }
 
 .description,

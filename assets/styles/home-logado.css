@@ -370,3 +370,20 @@ html {
     background-color: transparent !important;
     text-decoration: underline !important;
 }
+
+.txt-modal {
+    color: #1F1F25;
+}
+
+.btn-primary {
+    background: linear-gradient( 41.38deg,
+    rgba(25, 134, 19, 1) 0%,
+    rgba(255, 246, 0, 1) 94.9999988079071%,
+    rgba(255, 247, 0, 1) 97.50000238418579%,
+    rgba(0, 111, 255, 1) 100%);
+    border: none !important;
+}
+
+.modal.content {
+    background-color: #1F1F25 !important;
+}
