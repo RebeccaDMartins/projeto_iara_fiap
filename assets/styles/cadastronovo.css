@@ -18,6 +18,15 @@ body {
     height: 100vh;
 }
 
+.voltar {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .container {
     background-color: #1F1F25;
     padding: 20px;
