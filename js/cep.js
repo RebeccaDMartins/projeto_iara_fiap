@@ -20,6 +20,7 @@ function montarResultado(objetoEndereco) {
     dados += "Bairro: " + objetoEndereco.neighborhood + "<br>";
     dados += "Cidade: " + objetoEndereco.city + "<br>";
     dados += "Estado: " + objetoEndereco.state + "<br>";
+    dados += "CEP: " + objetoEndereco.cep + "<br>";
 
     dados += "</h4>";
 

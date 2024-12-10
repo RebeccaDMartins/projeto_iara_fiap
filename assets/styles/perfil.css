@@ -47,6 +47,7 @@ html {
   gap: 20%;
   align-items: center;
   justify-content: space-evenly;
+  list-style-type: none;
 }
 
 .link {
@@ -161,6 +162,7 @@ html {
   column-gap: 50px;
   margin-bottom: 250px;
 }
+
 .opcoes-gerais{
   margin-top: 80px;
   display: flex;
